@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#center-content {
+    width: 50vw;
+    margin: auto;
+}
+
+#nav-here {
+    text-align: center;
+}
+
+#nav-here ul {
+    display: inline-block;
+    padding: 0;
+}
+
+#nav-here li {
+    display: inline-block;
+    width: 70px;
+    margin-left: 2px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#nav-here a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}

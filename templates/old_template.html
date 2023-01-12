@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/static/style.css">
+	<title>{{ post.title }}</title>
+</head>
+<body>
+	<div id="center-content">
+		<div id="nav-here">
+			<ul>
+				{% for item in nav_items %}
+				<li><a href="{{ item.url }}">{{ item.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div id="content-here">
+			<h1>{{ post.title }}</h1>
+			{{ post.content }}
+		</div>
+		<div id="posts-here">
+			<ul>
+				{% for post in list_posts %}
+				<li>{{ post.date }}: <a href="posts/{{ post.slug }}/">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

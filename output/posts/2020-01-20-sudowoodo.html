@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/css/style.css">
+	<title>Sudowoodo reminding you to be careful when using sudo</title>
+</head>
+<body>
+	<div id="center-content">
+		<div id="content-here">
+			<h1>Sudowoodo reminding you to be careful when using sudo</h1>
+			<p>Remember the lecture that you received when you first used sudo?</p>
+
+<pre class="synNormal">
+We trust you have received the usual lecture from the local System Administrator.
+It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+</pre>
+
+<p>It's a pretty nice warning, unfortunately, it only appears once. You can edit the sudoers file to make it permanent. Open the fine by running <code>sudo visudo</code> and then modify it to have the following line.</p>
+
+<pre class="synNormal">
+Defaults    lecture=always
+</pre>
+
+<p>You can also set a custom lecture, for instance, an <a href="https://github.com/0aax/sudowoodo/blob/master/sudoers.lecture">ascii image of sudowoodo</a>. Create a new file with the message to be displayed and set <code>lecture_file</code> to wherever the file is (e.g. <code>/etc/sudoers.lecture</code>).</p>
+
+<pre class="synNormal">
+# (replace the path with your own)
+Defaults    lecture_file=/etc/sudoers.lecture
+</pre>
+
+		</div>
+	</div>
+</body>
+</html>
