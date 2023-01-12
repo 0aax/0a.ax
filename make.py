@@ -63,7 +63,6 @@ def make_post(post_path):
     template = env.get_template('post_template.html')
 
     input_page = content_dir.joinpath(Path(post_relative_path + '.md'))
-    output_page = output_dir.joinpath(Path(post_relative_path + '.html'))
 
     with open(input_page, 'r') as file:
         parsed_md = markdown(file.read(), extras=['metadata', 'footnotes'])
@@ -82,6 +81,10 @@ def make_post(post_path):
     }
 
     html = template.render(post=post)
+
+    if not os.path.exists(output_dir.joinpath('posts/' + post_slug)):
+        os.makedirs(output_dir.joinpath('posts/' + post_slug))
+    output_page = output_dir.joinpath(Path('posts/' + post_slug + '/index.html'))
 
     with open(output_page, 'w', encoding='utf-8') as file: 
         file.write(html)
