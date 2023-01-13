@@ -1,7 +1,6 @@
 
-<p align="center" width="100%">
-    <img width="33%" src="static/img/squash.jpg">
-</p>
+<img src="static/img/squash.jpg"
+     style="display:block;float:none;margin-left:auto;margin-right:auto;max-width:225px">
 
 Hi! My name's Audrey Xie and I'm an undergraduate student at MIT studying both math and computer science.
 
