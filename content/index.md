@@ -4,7 +4,7 @@
 
 Hi! My name's Audrey Xie and I'm an undergraduate student at MIT studying both math and computer science.
 
-I am currently part of Professor Jonathan Ragan-Kelley's group at CSAIL where I develop gradient-based methods for hyperparameter optimization. I am also a tutor at the [Math Learning Center](https://math.mit.edu/learningcenter/) and play the liuqin for the MIT Chinese music ensemble.
+I am currently working with Professor Elchanan Mossel to study art embeddings. I was previously part of Professor Jonathan Ragan-Kelley's group at CSAIL where I developed gradient-based methods for hyperparameter optimization. I am also a tutor at the [Math Learning Center](https://math.mit.edu/learningcenter/) and play the liuqin for the MIT Chinese music ensemble.
 
 If you would like to chat about the contents of this website (or anything else) please send an email to ahx at mit dot edu.
 
