@@ -4,7 +4,7 @@
 
 Hi! My name's Audrey Xie and I'm an undergraduate student at MIT studying both math and computer science.
 
-I'm currently working with Professor Elchanan Mossel to study latent space geometry in generative models. Prior to that I was in Professor Jonathan Ragan-Kelley's group at CSAIL where I developed gradient-based methods for hyperparameter optimization. I'm also a tutor at the [Math Learning Center](https://math.mit.edu/learningcenter/) and play the liuqin for the MIT Chinese music ensemble.
+I'm currently working with Professor Elchanan Mossel to study latent space geometry of generative models. Prior to that I was in Professor Jonathan Ragan-Kelley's group at CSAIL where I developed gradient-based methods for hyperparameter optimization. I'm also a tutor at the [Math Learning Center](https://math.mit.edu/learningcenter/) and play the liuqin for the MIT Chinese music ensemble.
 
 If you would like to chat about the contents of this website (or anything else) please send an email to ahx at mit dot edu.
 
